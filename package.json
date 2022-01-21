@@ -1,0 +1,19 @@
+{
+    "name": "relaciones-sequelize",
+    "version": "1.0.0",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.17.2",
+        "jsonwebtoken": "^8.5.1",
+        "pg": "^8.7.1",
+        "pg-hstore": "^2.3.4",
+        "sequelize": "^6.13.0"
+    },
+    "devDependencies": {
+        "dotenv": "^14.2.0"
+    },
+    "scripts": {
+        "dev": "ts-node ./src/api.ts",
+        "sync": "ts-node ./src/database/sync.ts"
+    }
+}
