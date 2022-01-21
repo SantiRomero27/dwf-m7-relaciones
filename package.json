@@ -3,6 +3,7 @@
     "version": "1.0.0",
     "license": "MIT",
     "dependencies": {
+        "@types/node": "^17.0.10",
         "express": "^4.17.2",
         "jsonwebtoken": "^8.5.1",
         "pg": "^8.7.1",
