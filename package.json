@@ -14,6 +14,8 @@
     },
     "scripts": {
         "dev": "ts-node ./src/api.ts",
-        "sync": "ts-node ./src/database/sync.ts"
+        "sync": "ts-node ./src/database/sync.ts",
+        "build": "tsc ./src/api.ts",
+        "start": "node ./src/api.js"
     }
 }
